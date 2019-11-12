@@ -1,26 +1,52 @@
+* {
+    padding:0;
+    margin:0;
+}
 #header{
-    background:blue;
+    background:white;
 
 }
-li {
-    display: inline;
-    position: relative;
-    text-outline: 60px;
-    left: 850px;
-    top:-50px;
-    color:gray;
+h1 {
+    float: left;
+    color:white;
+    background-color:rgb(30, 141, 141)
 }
+.topnav a {
+    float: right;
+    display: block;
+    color: gray;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+
+div {
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+  }
+
 h2{
     position: relative;
-    color:aqua;
-}
-img{
-    display:block;
+    color:rgb(30, 141, 141);
 }
 
-#intro{
-    position: relative;
+
+.wholecontainer{
+    background-color:white;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 0px;
+    margin-left: 100px;
 }
+
+
+
 body{
-    background-color:texture;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/concrete_seamless.png");
+    background-color: #f1f1f1;
 }
