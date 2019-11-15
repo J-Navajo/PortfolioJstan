@@ -21,6 +21,11 @@ h1 {
     text-decoration: none;
 }
 
+.pictures{
+    width: 200px;
+    height: 275px;
+}
+
 h2{
     position: relative;
     color:#4aaaa5;
